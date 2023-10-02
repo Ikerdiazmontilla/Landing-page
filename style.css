@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+.hero{
+    background-color: #1F2937;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.header{
+    display: flex;
+    padding: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.right-links{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.logo{
+    max-width: 80px;
+    max-height: auto;
+    flex: 1;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-hero{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.text-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 12px;
+    flex: 3;
+}
+
+.hero-title{
+    font-size: 48px  ;
+    font-weight: 900;
+    color:#F9FAF8 ;
+}
+
+.hero-p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    color: #F9FAF8 ;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3882F6;
+    width: 120px;
+    height: 35px;
+    flex: 0 1 auto;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #3882F6;
+}
+
+.hero-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    flex: 1;
+    margin-left: auto;
+}
