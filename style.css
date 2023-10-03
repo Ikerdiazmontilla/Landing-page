@@ -1,13 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     font-family: Roboto, sans-serif;
+   
+    margin: 0px;
+    
 }
 
 .hero{
     background-color: #1F2937;
-    padding-left: 230px;
-    padding-right: 230px;
+    display: flex;
+    justify-content: center;
 }
+
+.subhero{
+    max-width: 900px;
+}
+
 
 .header{
     display: flex;
@@ -91,10 +99,10 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 330px;
-    padding-right: 330px;
+
     padding-top: 60px;
-    gap: 36px;
+    padding-bottom: 80px;
+    gap: 50px;
 }
 
 .pictures-title{
@@ -106,7 +114,9 @@ button{
 .pictures-content{
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 24px;
+    flex: auto;
+    max-width: 800px;
 }
 
 .pictures-pair{
@@ -116,12 +126,41 @@ button{
 }
 
 .pictures-img{
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 140px;
+    max-height: 140px;
     border-radius: 12px;
     
 }
 
 .pictures-p{
     text-align: center;
+    font-size: 17px;
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author{
+    text-align: right;
+    font-size: 16px;
+    margin-left: auto;
+
 }
