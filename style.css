@@ -1,7 +1,8 @@
 
 body{
     font-family: Roboto, sans-serif;
-   
+    display: flex;
+    flex-direction: column;
     margin: 0px;
     
 }
@@ -162,5 +163,58 @@ button{
     text-align: right;
     font-size: 16px;
     margin-left: auto;
+}
 
+.call-to-action-container{
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 45px;
+    padding-right: 100px;
+    padding-left: 100px;
+    flex: auto;
+    max-width: 750px;
+}
+
+.action-content{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    margin-right: auto;
+}
+
+.action-title{
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.action-p{
+    color: #F9FAF8;
+}
+
+
+.call-to-action button{
+    border: 2px solid #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.footer-text{
+    color: #E5E7EB;
 }
